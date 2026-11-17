@@ -1,0 +1,34 @@
+{
+  "name": "dsh-godot-preset",
+  "version": "0.1.0",
+  "description": "Godot 4 教学教练预设：拆-抄-造协议，不代写代码，六周从 2D 教程走到垂直切片。",
+  "license": "MIT",
+  "author": "QAQWWQ",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QAQWWQ/dsh-godot-preset.git"
+  },
+  "homepage": "https://github.com/QAQWWQ/dsh-godot-preset#readme",
+  "bugs": {
+    "url": "https://github.com/QAQWWQ/dsh-godot-preset/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "godot",
+    "agent-preset",
+    "teaching"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
